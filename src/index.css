@@ -1,0 +1,882 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.upperBar {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 0;
+  background-color: #1c1c1c !important;
+  color: white;
+}
+.carousel-inner,
+.carasouel_container {
+  /* height: 100%; */
+  height: 75vh !important; /* Set your desired height */
+  overflow: hidden;
+}
+.carousel-item {
+  height: 100%;
+}
+.image-cara {
+  height: 100%;
+  image-rendering: pixelated;
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  /* opacity: 0.7; */
+  filter: brightness(40%);
+}
+/* .tofixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+} */
+
+.navbarUl {
+  justify-content: end;
+  width: 100%;
+}
+.navbar_ruvena {
+  width: 62%;
+  margin: auto;
+}
+.navbar_whole,
+.navbar_ruvena {
+  /* background-color: #898989 !important; */
+}
+.whole_footer {
+  background: #1c1c1c;
+  width: 100%;
+}
+.social_images {
+  margin-left: 12px;
+}
+.image_horizontal {
+  position: relative;
+}
+.image_horizontal .text {
+  position: absolute;
+  bottom: 25px;
+  left: 28px;
+}
+
+.seeMore {
+  background: #ea2126;
+  color: white;
+  padding: 7px 33px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 4rem;
+}
+.container-wrap-desti {
+  margin-bottom: 2.5rem;
+}
+
+.snip1527 {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  float: left;
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 16px;
+  margin: 10px 1%;
+  max-width: 310px;
+  min-width: 250px;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+.snip1527 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.snip1527 img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+}
+
+.snip1527 figcaption {
+  padding: 25px 20px 25px;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
+.snip1527 figcaption:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #700877;
+  content: "";
+  background: -moz-linear-gradient(
+    90deg,
+    #700877 0%,
+    #ff2759 100%,
+    #ff2759 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    #700877 0%,
+    #ff2759 100%,
+    #ff2759 100%
+  );
+  background: linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.snip1527 .date {
+  background-color: #fff;
+  border-radius: 50%;
+  color: #700877;
+  font-size: 18px;
+  font-weight: 700;
+  min-height: 48px;
+  min-width: 48px;
+  padding: 10px 0;
+  position: absolute;
+  right: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  top: -25px;
+}
+
+.snip1527 .date span {
+  display: block;
+  line-height: 14px;
+}
+
+.snip1527 .date .month {
+  font-size: 11px;
+}
+
+.snip1527 h3,
+.snip1527 p {
+  margin: 0;
+  padding: 0;
+}
+
+.snip1527 h3 {
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  margin-bottom: 5px;
+}
+
+.snip1527 p {
+  font-size: 0.8em;
+  line-height: 1.6em;
+  margin-bottom: 0px;
+}
+
+.snip1527 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.snip1527:hover img,
+.snip1527.hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.image_text_tour {
+  top: 285px !important;
+}
+.image_text_tour h2 {
+  font-family: Unna;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.card_image_second {
+  filter: brightness(45%);
+}
+
+.revie_image {
+  width: -webkit-fill-available;
+}
+.kink_list_items {
+  /* Default bullets style erased */
+  list-style: none;
+}
+.kink_list_items::before {
+  /* Unicode for a bullet */
+  content: "\2022";
+
+  /* Styles for Indentation*/
+  color: red;
+
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.carousel-caption {
+  bottom: 9rem !important;
+  font-family: Playfair Display SC;
+}
+.slider_text {
+  font-family: Cabin;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+/* border: 1px solid #ccc;
+border-radius: 5px;
+padding: 15px;
+margin: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} */
+
+/* Adjust carousel item height to fit cards */
+.carousel-inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Custom dots style */
+.carousel-indicators {
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  background-color: #ccc;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.carousel-indicators .active {
+  background-color: orange;
+}
+.image_horizontal img {
+  filter: brightness(50%);
+}
+.fontSmooch,
+.new_exotic {
+  font-family: "Smooch", cursive;
+  font-family: Kristi;
+  font-size: 43px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffab00;
+  margin-bottom: 1rem;
+}
+.content_reviews {
+  text-align: center;
+  width: 80%;
+}
+.places_exotic {
+  font-family: Unna;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.discount_percent {
+  font-family: Unna;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 150px;
+  letter-spacing: 0em;
+  text-align: center;
+  position: relative;
+  top: 49px;
+  right: -65px;
+}
+.choose_tour_section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.head_insta,
+.head_fb {
+  margin-left: 4px;
+}
+ol li {
+  list-style: none;
+}
+.tours_innerImage {
+  width: -webkit-fill-available;
+}
+.blog_title_home {
+  font-family: Unna;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.blog_posts_title {
+  font-family: Unna;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+}
+.contact_us {
+  font-family: Unna;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.monteseraat_btn {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+}
+.choose_tour_title {
+  font-family: Unna;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  margin-bottom: 20px;
+}
+.icon_container span {
+  font-family: Unna;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+}
+.exotic_text h1 {
+  font-family: Unna;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+}
+.content_reviews h3 {
+  font-family: Unna;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+}
+.instagaram_footer,
+.footer_latest {
+  font-family: Unna;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+}
+.tours_title {
+  font-family: Unna;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+.tours_innerImage {
+  height: 155px;
+}
+body {
+  /* overflow-x: hidden; */
+}
+.contact_form_container {
+  width: 100%;
+  margin: auto;
+}
+.blog_inner_image {
+  height: 350px !important;
+  width: 350px !important;
+}
+
+.navbar_whole {
+  position: absolute;
+  top: 59px;
+  width: 100%;
+  z-index: 99;
+  background: transparent;
+}
+.navbar_ruvena {
+  background: transparent;
+}
+.footer_rights_reserved {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 7px;
+  letter-spacing: 0em;
+  text-align: center;
+  border: 0.5px solid #aaaaaa;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.instaposts {
+  height: 106px;
+  width: 106px;
+}
+.blog_main_container {
+  margin-top: 7rem;
+}
+.go_exotic img {
+  width: 100%;
+}
+.amritsar {
+  margin-top: 0px;
+}
+.upperBar_comp {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.p-dialog-title {
+  color: #303030 !important;
+  text-transform: capitalize;
+}
+.mainContent_dialog {
+  width: 46%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-wrapper_dialog {
+  width: 50%;
+}
+.wrapper-dialog {
+  display: flex;
+}
+.go_exotic {
+  cursor: pointer;
+}
+.upperabout_us {
+  width: 70%;
+  margin: auto;
+}
+.contact_main {
+  width: 47%;
+  margin-left: auto;
+}
+.imageCont {
+  width: 50%;
+}
+.image_content {
+  display: flex;
+  justify-content: center;
+}
+.destination_title_ {
+  text-transform: capitalize;
+}
+.destination_title_Under {
+  margin-top: 5px;
+  height: 4px;
+  color: red;
+  width: fit-content;
+  background-color: red;
+  margin-bottom: 1rem;
+}
+
+/* Reset some default margin/padding */
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+/* Create a flex container to hold the cards */
+.container-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Style for the left column containing three cards */
+.left-column {
+  flex: 2; /* Takes 2/3 of the available space */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for the sub-column containing Card 1 and Card 2 */
+.sub-column {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1; /* Equal flex value to share the space equally */
+}
+
+/* Style for Card 1 and Card 2 */
+.cardsss {
+  /* background-color: #f0f0f0; */
+  /* border: 1px solid #ddd; */
+  /* padding: 20px; */
+  /* margin: 10px; */
+  flex: 1; /* Each card takes equal space in the sub-column */
+  display: flex;
+  /* flex-direction: column;s */
+}
+
+/* Style for the right column */
+.right-column {
+  flex: 1; /* Takes 1/3 of the available space */
+  /* background-color: lightgray; */
+  /* padding: 20px; */
+  display: flex;
+  /* flex-direction: column; */
+}
+.left-column-right {
+  flex: 1; /* Takes 1/3 of the available space */
+  /* background-color: lightgray;
+  padding: 20px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.goa_image_hori {
+  width: -webkit-fill-available;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .container-flex {
+    flex-direction: column;
+  }
+
+  .left-column,
+  .sub-column,
+  .card,
+  .right-column {
+    flex: auto; /* Adjusts to available space */
+  }
+}
+/* 
+.custom-card {
+  height: 100%;
+} */
+
+.card-img-overlay-text {
+  position: absolute;
+  bottom: 0;
+  left: 0.5rem;
+  right: 0;
+  /* filter: brightness(4.5); */
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  width: fit-content;
+  /* background: transparent; */
+  height: fit-content;
+  top: 16rem;
+}
+.card-img {
+  height: 100%;
+  filter: brightness(45%);
+}
+.bottom-left-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  color: white;
+}
+
+/* .text_overIMage {
+  position: relative;
+  bottom: 6rem;
+  left: 2rem;
+}
+.exotic_image_render {
+  height: 100%;
+} */
+/* body {
+  
+  overflow-x: hidden;
+  margin: auto;
+} */
+/* @media screen and (max-width: 1450px) {
+  .image_horizontal {
+    width: inherit;
+  }
+  .first_row_img {
+    margin-right: 0px;
+  }
+} */
+/* @media screen and (max-width: 1920px) {
+  .carousel-caption {
+    bottom: 13rem !important;
+    font-family: Playfair Display SC;
+  }
+}
+@media screen and (max-width: 1915px) {
+  .carousel-caption {
+    bottom: 13rem !important;
+    font-family: Playfair Display SC;
+  }
+}
+@media screen and (max-width: 1918px) {
+  .carousel-caption {
+    bottom: 20rem !important;
+    font-family: Playfair Display SC;
+  }
+} */
+@media screen and (max-width: 1930px) {
+  .carousel-caption {
+    bottom: 15rem !important;
+  }
+  .lastImage_reponsive {
+    height: fit-content;
+  }
+}
+@media screen and (max-width: 1680px) {
+  .carousel-caption {
+    bottom: 17rem !important;
+  }
+}
+@media screen and (max-width: 1550px) {
+  .carousel-caption {
+    bottom: 9rem !important;
+  }
+}
+@media screen and (max-width: 990px) {
+  .navbarUl {
+    width: unset;
+    justify-content: unset;
+  }
+  .navbar_ruvena {
+    width: 100%;
+  }
+  .HorizontalContainer {
+    flex-wrap: wrap;
+  }
+}
+.destination_2 div {
+  padding-left: 0px;
+  margin-left: 0px;
+  margin: auto;
+}
+@media screen and (max-width: 777px) {
+  .go_exotic {
+    width: -webkit-fill-available;
+  }
+  .go_exotic img {
+    width: -webkit-fill-available;
+  }
+  .instaposts {
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  .home_blogs_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .A_simply {
+    width: -webkit-fill-available;
+  }
+  .image-background3 {
+    width: fit-content;
+    margin: auto;
+  }
+  .inner_image_wrapper div {
+    margin: auto;
+  }
+  .blog_inner_image {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 550px) {
+  .mainContent_dialog {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img-wrapper_dialog {
+    width: 100%;
+  }
+  .wrapper-dialog {
+    display: flex;
+    flex-direction: column;
+  }
+  .discount_percent {
+    font-family: Unna;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 150px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: relative;
+    top: 17px;
+    right: -9px;
+  }
+  .leads {
+    position: relative;
+    text-shadow: 1px 2px black;
+    color: white;
+    font-family: "Smooch", cursive;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffab00;
+    text-align: center;
+    bottom: -1px;
+  }
+  .exoticPlace_cards {
+    margin: auto;
+  }
+  .go_exotic {
+    margin-bottom: 1rem;
+  }
+  .go_exotic_goa {
+    margin-bottom: 0px !important;
+  }
+  .icon_container {
+    margin-top: 1rem !important;
+  }
+  .blogmapped {
+    margin: auto;
+  }
+  .carousel-indicators-cards {
+    bottom: -5rem !important;
+  }
+  .caraousel-inner-mobile {
+    height: 100% !important;
+  }
+  .discount_percent {
+    display: inline;
+  }
+  .carousel-caption h3 {
+    font-size: 40px !important;
+  }
+  .carousel-caption p {
+    font-size: 12px !important;
+  }
+  .review_sect {
+    font-size: 35px;
+  }
+  .content_reviews h3 {
+    margin-top: 2rem;
+  }
+  .tour_list_images {
+    margin: auto;
+  }
+  .tour_image_content {
+    margin-top: 1rem;
+  }
+  .destination_1 {
+    margin: auto;
+  }
+  .destination_2 {
+    margin: auto;
+  }
+  .destination_2 div {
+    margin: auto;
+    margin-right: 0px;
+  }
+  .image_horizontal {
+    margin-left: 0px !important;
+  }
+  .go_exotic_2 {
+    margin-bottom: 1rem !important;
+  }
+  .image_horizontal_paddin {
+    padding-left: 0px;
+  }
+  .blog_inner_image_container {
+    margin-bottom: 1rem !important;
+  }
+  .inner_image_wrapper {
+    margin: auto;
+  }
+  .inner_image_wrapper div {
+    margin: auto;
+  }
+  .blog_inner_image {
+    width: 100%;
+    margin: auto;
+  }
+  .carousel-captionother {
+    bottom: 7.5rem !important;
+  }
+  .instaposts {
+    height: 106px;
+    width: 106px;
+  }
+  .lastImage_reponsive {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .button_contact {
+    width: 100%;
+  }
+  .seeMore {
+    margin-top: 1rem;
+  }
+  .carousel-inner {
+    flex-wrap: unset;
+  }
+  .blog_main_container {
+    margin-top: 3rem;
+  }
+  .first_row_img {
+    margin-right: 0px;
+    margin: auto;
+  }
+  .image_vertical_cover_himachal {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .kerala_row_start,
+  .kerala_image,
+  .image_width,
+  .vertical_destina {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+  .vertical_destina img {
+    width: -webkit-fill-available;
+  }
+  .contact_main {
+    width: 97%;
+    margin-left: auto;
+    margin-top: 1rem;
+  }
+  .imageCont {
+    width: 100%;
+  }
+  .image_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
