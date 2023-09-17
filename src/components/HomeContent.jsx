@@ -241,7 +241,7 @@ export const HomeContent = () => {
                 >
                   <img src={Goa1} alt="Image" class="card-img" />
                   <div class="bottom-left-text">
-                    <p className="new_exotic">New</p>
+                    {/* <p className="new_exotic">New</p> */}
                     <div className="places_exotic">Goa</div>
                   </div>
                 </div>
@@ -255,7 +255,7 @@ export const HomeContent = () => {
                     >
                       <img src={kashmir} alt="Image" class="card-img" />
                       <div class="bottom-left-text">
-                        <p className="new_exotic">New</p>
+                        {/* <p className="new_exotic">New</p> */}
                         <div className="places_exotic">Kashmir</div>
                       </div>
                     </div>
@@ -273,7 +273,7 @@ export const HomeContent = () => {
                     >
                       <img src={uttarakhand} alt="Image" class="card-img" />
                       <div class="bottom-left-text">
-                        <p className="new_exotic">New</p>
+                        {/* <p className="new_exotic">New</p> */}
                         <div className="places_exotic">Uttarakhand</div>
                       </div>
                     </div>
@@ -289,7 +289,7 @@ export const HomeContent = () => {
                 >
                   <img src={Himachal} alt="Image" class="card-img" />
                   <div class="bottom-left-text">
-                    <p className="new_exotic">New</p>
+                    {/* <p className="new_exotic">New</p> */}
                     <div className="places_exotic">Himachal</div>
                   </div>
                 </div>
