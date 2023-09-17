@@ -56,7 +56,12 @@ export const CommonHeader = () => {
         </div>
         <NavigationBar />
         <div className="carasouel_container">
-          <div id="carouselExampleIndicators" className="carousel slide">
+          <div
+            id="carouselExampleIndicators"
+            className="carousel slide"
+            data-ride="carousel"
+            data-bs-interval="3000"
+          >
             {location.pathname === "/" && (
               <div className="carousel-indicators">
                 <button
@@ -72,6 +77,7 @@ export const CommonHeader = () => {
                   data-bs-target="#carouselExampleIndicators"
                   data-bs-slide-to="1"
                   aria-label="Slide 1"
+                  // data-interval="2000"
                 ></button>
                 <button
                   type="button"

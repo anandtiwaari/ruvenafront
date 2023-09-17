@@ -33,7 +33,12 @@ export const Articles = () => {
         </div>
       </div>
       <div className="container " style={{ marginTop: "80px" }}>
-        <div id="myCarousel" className="carousel slide" data-ride="carousel">
+        <div
+          id="myCarousel"
+          className="carousel slide"
+          data-ride="carousel"
+          data-bs-interval="3000"
+        >
           <div className="carousel-inner caraousel-inner-mobile">
             <div className="carousel-item active">
               <div className="row">
