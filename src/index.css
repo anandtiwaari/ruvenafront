@@ -560,7 +560,9 @@ body {
 .goa_image_hori {
   width: -webkit-fill-available;
 }
-
+.carousel-indicators .active {
+  background-color: red !important;
+}
 /* Media query for responsiveness */
 @media (max-width: 768px) {
   .container-flex {
