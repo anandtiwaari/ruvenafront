@@ -17,6 +17,7 @@ import Himachal from "../assets/Himachal-min 1.png";
 import uttarakhand from "../assets/uttarakhand 1.png";
 import { DialogButton } from "./DialogButton";
 import { Carousel } from "primereact/carousel";
+import { ProgressSpinner } from "primereact/progressspinner";
 export const HomeContent = () => {
   const [homeBlogData, sethomeBlogData] = useState([]);
   const [visible, setVisible] = useState(false);
@@ -526,7 +527,9 @@ export const HomeContent = () => {
               })}
             </div>
           ) : (
-            <h5 className="text-center">Loading....</h5>
+            <div className="text-center">
+              <ProgressSpinner />
+            </div>
           )}
         </div>
       </div>
