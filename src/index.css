@@ -563,6 +563,18 @@ body {
 .carousel-indicators .active {
   background-color: red !important;
 }
+.p-carousel .p-carousel-indicators .p-carousel-indicator button {
+  background-color: #ced4da;
+  width: 0.7rem;
+  height: 0.7rem !important;
+  border-radius: 50%;
+  height: 0.5rem;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+  /* border-radius: 0; */
+}
+.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+  background-color: #ea2126;
+}
 /* Media query for responsiveness */
 @media (max-width: 768px) {
   .container-flex {

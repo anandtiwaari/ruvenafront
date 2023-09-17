@@ -16,6 +16,7 @@ import kashmir from "../assets/kashmir_actual.png";
 import Himachal from "../assets/Himachal-min 1.png";
 import uttarakhand from "../assets/uttarakhand 1.png";
 import { DialogButton } from "./DialogButton";
+import { Carousel } from "primereact/carousel";
 export const HomeContent = () => {
   const [homeBlogData, sethomeBlogData] = useState([]);
   const [visible, setVisible] = useState(false);
@@ -24,6 +25,18 @@ export const HomeContent = () => {
     content: "",
     image: null,
   });
+  const [products, setProducts] = useState([
+    {
+      desc: " Lorem ipsum, or lipsum as it is sometimes known, is dummy text used inlaying out print, graphic or web designs. The passage is attributed toan unknown typesetter in the 15th century who is thought to havescrambled parts of Cicero's De Finibus Bonorum.",
+    },
+    {
+      desc: " Lorem ipsum, or lipsum as it is sometimes known, is dummy text used inlaying out print, graphic or web designs. The passage is attributed toan unknown typesetter in the 15th century who is thought to havescrambled parts of Cicero's De Finibus Bonorum.",
+    },
+    {
+      desc: " Lorem ipsum, or lipsum as it is sometimes known, is dummy text used inlaying out print, graphic or web designs. The passage is attributed toan unknown typesetter in the 15th century who is thought to havescrambled parts of Cicero's De Finibus Bonorum.",
+    },
+  ]);
+
   let HomeBlogContentData = () => {
     axios
       .get("https://simple-onee.onrender.com/api/blogs?populate=*")
@@ -89,6 +102,45 @@ export const HomeContent = () => {
     "Uttarakhand the 27th state of Republic of India lies between 28o 44' & 31o 28' N Latitude and 77o 35' & 81o 01' East longitude. It was carved out of UP on 9th November 2000. The geographical area of the state is 53483 sq. km and the terrain and topography of the state is largely hilly with large areas under snow cover and steep slopes. Uttarakhand State comprises of 02 regions 13 districts, 78 Tehsils and 95 community development blocks. The districts lying in Garhwal Region are Uttarkashi, Chamoli, Pauri, Rudraprayag, Tehri, Dehradun & Haridwar and the remaining 06 in Kumaon Region are Udham Singh Nagar, Nainital, Almora, Pithoragarh, Champawat & Bageshwar. The human population of the State is 1.01 Crore (2001) compared to 25.18 lacs in 1951 and that of livestock is 50.22 lacs in 2012 as compared to 41.68 lacs (1993).Uttarkashi, Chamoli and Pithoragarh districts of Uttarakhand share International boundary in the NW with China. In the east, the districts of Pithoragarh, Champawat and Udham Singh Nagar also share International boundary with Nepal. Uttarkashi and Dehradun share inter-state boundaries with Himachal Pradesh in the north-west, while Dehradun, Haridwar, part of Nainital and Udham Singh Nagar touches the boundary of Uttar Pradesh in the south. The Garhwal Himalayas along with Kumaon and a part of Himachal Pradesh has unique characteristics as it has Tibet in the north, Upper Gangetic Plain in the south and Eastern Himalayan provinces in the east. Physiographically, Uttarakhand represents a cross-section of the Himalaya on the basis of its evolutionary history, namely the Trans-Himalaya, Greater Himalaya or Himadri, Lesser Himalaya, Shiwalik Ranges, foothills & Terai and the Plains of Dehradun, Haridwar and Udham Singh Nagar.The floral & faunal composition is diverse and interesting. Between the Himalaya in the north and the hills and the plateau in the south lies a vast Gangetic Plains which is one of the largest homogenous alluvial plains in the world. In Uttarakhand, the Bhabar skirts the Shiwaliks mainly in Garhwal and Nainital- Pilibhit while the Terai extends from River Yamuna on the west and a large portion of it lies in the Nepal. The Terai in Uttarakhand covers lower portion of district Nainital.Major portion of the state is mountainous and these mountains (Himalayas) are one of the youngest mountain systems of the world (40 million years in age compared to peninsular mountains of 1500-2500 million years old) and hence ecologically very fragile and relatively much more susceptible to earthquakes and landslides. Shiwalik formations are one of the most important eco-region due to their endemicity and past geological history. The era of Shiwalik ecosystem of rocks is called “Age of Mammals”. It is the filtering zone for migration of fauna and flora from highlands to lowlands and vice-versa. It is not only a gateway to the enhanced biodiversity but also to the green and white revolutions, industrialization and creation of livelihood opportunities. This region harbored a rich fauna in the geological past as evidenced by the discovery of fossils of Amphibians, Reptiles and Mammals. The wide altitudinal range is the richest zone in terms of habitat and biodiversity.Uttarakhand has everything except the sea. India, Indonesia, and the Indian Ocean cover the area once occupied by the Tethys ocean, and Turkey, Iraq, and Tibet sit on Cimmeria. What was once the Tethys Sea has become the Mediterranean sea. But discovery of the Ammonite fossils in the upper reaches of Himalayas, in Nanda Devi are suggestive of the fact that area was perhaps submerged under Tethys Sea in the geological past.  Hence, the occurrence of the marine biodiversity in the fossil form is also contributing to the richness of the faunal diversity in Uttarakhand. The state is represented by biographic zone 2B Western Himalaya and 7B Shiwaliks consisting of Kumaon and Garhwal regions. Total geographical area of the state (53,483 sq.km) is 1.6 % of the total geographical area of the Country, out of which 46,035 sq.km is hilly. The major wealth of the state is its forests with very rich biodiversity. The state ranks sixth among the other states in terms of percentage of recorded forest area. The state has thus varied terrain, major portion of which is mountainous with unique ecological diversity consisting of high alpine areas to the Sub-tropical and Tropical regions. Total Forest cover area in the state is 3.47 million ha constituting 71% of the State’s Geographical area. The forest diversity of the state comprises of Tropical Moist Forest (500-1000m) which is Terai and Bhabar belt of Sub Himalayan Tract, Sub-Tropical Pine Forest (1000-2000m), Himalayan Moist Temperate Forest (2000-3000m), Sub-Alpine Forests (3400-4000m) and Alpine Forests  4000-5000m). Physiographically, the state can be divided into three zones namely, the Himalaya, The Shiwalik and the Tarai Region. The state has a temperate climate except in plain areas where the climate is tropical. The average annual rainfall is 1550 mm.Enormous floristic and vegetation diversity marks the upper limit of vegetation, with variety of orchids, horticulture and economic plants, including Bamboo, wild germplasm of some cultivated species. By virtue of its extensive geographical stretch, varied terrain and climate the Himalayan Mountain Ranges in Uttarakhand are bestowed with a series of wetlands. Important perennial rivers are Ganga, Yamuna, Bhagirathi, Alaknanda, Ramganga, Nayar, Kosi, Saryu, Sharda and their tributaries. These wetlands, which are some of the most productive and endangered ecosystems, exhibit tremendous faunal diversity from Protozoa to Mammalia. They are roosting & breeding grounds and shelters for migratory and resident birds during various times of the year. With abounding diversity on all accounts, the biodiversity of the State is bound to be rich. After the creation of Uttarakhand, as many as 3748 faunal species were inventoried and documented which included 451 species and sub-species, two new Taxa, 22 constitute a first record for India. Ten species occurring in the state are endemic to India. The faunal species included 1060 species of vertebrates, 2020 species of Insecta Invertebrates and  4346 invertibrates excluding Insecta.The present state of the Uttarakhand conforms to its rich heritage status supported by a rich floral diversity, vegetation, forest cover, healthy and pristine ecosystem and tremendous conservation efforts from species level to genetic level and to ecosystem level. Due to its unique bio-diversity, the state is also home to several rare and endangered species of herbal and aromatic plants. Realizing the immense potential of this resource in the state, the state government has declared Uttarakhand as a Herbal State.",
     "Himachal Pradesh is hill state, located in northern part of India and situated in the Western Himalayas. It’s bordered by union territories of Jammu Kashmir and Ladakh in the north side and other states of India like Punjab in the west, Uttarakhand in the south east, Haryana in the south west and the international border of Tibet in the east.Himachal Pradesh is a mountainous state and most of the region lies on the foothills of the Dhauladhar Mountain Range. Reo Purgyil is the highest mountain peak in the Himachal Pradesh, located at height of 6,816 meters above from the sea level. Himachal Pradesh is spread across valleys with many perennial rivers flowing through them.",
   ];
+  const responsiveOptions = [
+    {
+      breakpoint: "1199px",
+      numVisible: 1,
+      numScroll: 1,
+    },
+    {
+      breakpoint: "991px",
+      numVisible: 2,
+      numScroll: 1,
+    },
+    {
+      breakpoint: "767px",
+      numVisible: 1,
+      numScroll: 1,
+    },
+  ];
+  const ReviewsCompo = () => {
+    return (
+      <>
+        <p className="mt-5 mb-5">
+          Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+          laying out print, graphic or web designs. The passage is attributed to
+          an unknown typesetter in the 15th century who is thought to have
+          scrambled parts of Cicero's De Finibus Bonorum.
+        </p>
+
+        <div className="review_sect d-flex justify-content-center align-items-center flex-column mt-3">
+          <img src={jamesDoe} alt="" />
+          <div>
+            <span>
+              <img src={ratingStar} alt="" />
+            </span>
+          </div>
+          <span className="rating"></span>
+        </div>
+      </>
+    );
+  };
   return (
     <div>
       <Articles />
@@ -329,7 +381,18 @@ export const HomeContent = () => {
             >
               <div className="content_reviews">
                 <h3>Our Top Reviews</h3>
-                <p className="mt-5 mb-5">
+
+                {/* <div className="card"> */}
+                <Carousel
+                  value={products}
+                  numVisible={1}
+                  numScroll={1}
+                  responsiveOptions={responsiveOptions}
+                  itemTemplate={ReviewsCompo}
+                  autoplayInterval={3000}
+                />
+                {/* </div> */}
+                {/* <p className="mt-5 mb-5">
                   Lorem ipsum, or lipsum as it is sometimes known, is dummy text
                   used in laying out print, graphic or web designs. The passage
                   is attributed to an unknown typesetter in the 15th century who
@@ -345,7 +408,7 @@ export const HomeContent = () => {
                     </span>
                   </div>
                   <span className="rating"></span>
-                </div>
+                </div> */}
                 {/* <section className="contact-us" id="contact-section">
                 <form id="contact" action="" method="post">
                   <div className="section-heading">
