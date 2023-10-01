@@ -36,6 +36,12 @@ export const CommonHeader = () => {
     "Group Tour",
     "Adventure Tours",
   ];
+  let subContent = [
+    "Discover the awesome and the perfect honeymoon tour packages for your dream getaway.",
+    "Corporate incentive tours are trips or events organized by our company to reward employees for their hard work and achievements.",
+    "Group tours are organized for individuals to join together to explore a destination or participate in activities as a singular group",
+    "Adventure tours can involve physical, mental, and emotional challenges designed to push one's limits and offer a unique and exhilarating experience.",
+  ];
 
   let contentGeneral = ["DESTINATION LIST", "TOURS", "BLOGS", "About us"];
 
@@ -125,9 +131,11 @@ export const CommonHeader = () => {
                             : "Your Journey Begins"}
                         </h3>
                         <p className="slider_text">
-                          A journey of a 1000 miles starts with a single step.
-                          Import the full demo content with 1 click and create a
-                          head-turning website for your travel agency.
+                          {location.pathname === "/"
+                            ? subContent[key]
+                            : `A journey of a 1000 miles starts with a single step.
+                        Import the full demo content with 1 click and create a
+                        head-turning website for your travel agency.`}
                         </p>
                       </div>
                     </div>
