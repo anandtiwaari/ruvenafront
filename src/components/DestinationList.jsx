@@ -204,7 +204,7 @@ export const DestinationList = () => {
               >
                 <img src={Goa1} alt="Image" class="card-img" />
                 <div class="bottom-left-text">
-                  <p className="new_exotic">new</p>
+                  {/* <p className="new_exotic">new</p> */}
                   <div className="places_exotic">Goa</div>
                 </div>
               </div>
@@ -218,7 +218,7 @@ export const DestinationList = () => {
                   >
                     <img src={kashmir} alt="Image" class="card-img" />
                     <div class="bottom-left-text">
-                      <p className="new_exotic">new</p>
+                      {/* <p className="new_exotic">new</p> */}
                       <div className="places_exotic">Kashmir</div>
                     </div>
                   </div>
@@ -236,7 +236,7 @@ export const DestinationList = () => {
                   >
                     <img src={uttarakhand} alt="Image" class="card-img" />
                     <div class="bottom-left-text">
-                      <p className="new_exotic">new</p>
+                      {/* <p className="new_exotic">new</p> */}
                       <div className="places_exotic">Uttarakhand</div>
                     </div>
                   </div>
@@ -252,7 +252,7 @@ export const DestinationList = () => {
               >
                 <img src={Himachal} alt="Image" class="card-img" />
                 <div class="bottom-left-text">
-                  <p className="new_exotic">new</p>
+                  {/* <p className="new_exotic">new</p> */}
                   <div className="places_exotic">Himachal</div>
                 </div>
               </div>
@@ -271,7 +271,7 @@ export const DestinationList = () => {
               >
                 <img src={Kerala} alt="Image" class="card-img" />
                 <div class="bottom-left-text">
-                  <p className="new_exotic">new</p>
+                  {/* <p className="new_exotic">new</p> */}
                   <div className="places_exotic">Kerala</div>
                 </div>
               </div>
@@ -285,7 +285,7 @@ export const DestinationList = () => {
                   >
                     <img src={Gujarat} alt="Image" class="card-img" />
                     <div class="bottom-left-text">
-                      <p className="new_exotic">new</p>
+                      {/* <p className="new_exotic">new</p> */}
                       <div className="places_exotic">Gujarat</div>
                     </div>
                   </div>
@@ -303,7 +303,7 @@ export const DestinationList = () => {
                   >
                     <img src={maharashtra} alt="Image" class="card-img" />
                     <div class="bottom-left-text">
-                      <p className="new_exotic">new</p>
+                      {/* <p className="new_exotic">new</p> */}
                       <div className="places_exotic">Maharashtra</div>
                     </div>
                   </div>
@@ -319,7 +319,7 @@ export const DestinationList = () => {
               >
                 <img src={northEast} alt="Image" class="card-img" />
                 <div class="bottom-left-text">
-                  <p className="new_exotic">new</p>
+                  {/* <p className="new_exotic">new</p> */}
                   <div className="places_exotic">Northeast India</div>
                 </div>
               </div>

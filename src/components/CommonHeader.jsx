@@ -37,9 +37,9 @@ export const CommonHeader = () => {
     "Adventure Tours",
   ];
   let subContent = [
-    "Discover the awesome and the perfect honeymoon tour packages for your dream getaway.",
-    "Corporate incentive tours are trips or events organized by our company to reward employees for their hard work and achievements.",
-    "Group tours are organized for individuals to join together to explore a destination or participate in activities as a singular group",
+    "Discover the awesome and the perfect honeymoon tour packages for your dream getaway. Enjoy romantic destinations and luxurious accommodations.",
+    "Corporate incentive tours are trips or events organized by our company to reward employees for their hard work and achievements. ",
+    "Group tours are organized for individuals to join together to explore a destination or participate in activities as a singular group.",
     "Adventure tours can involve physical, mental, and emotional challenges designed to push one's limits and offer a unique and exhilarating experience.",
   ];
 
@@ -160,9 +160,9 @@ export const CommonHeader = () => {
                         contentGeneral[0]}
                     </h3>
                     <p className="slider_text">
-                      A journey of a 1000 miles starts with a single step.
-                      Import the full demo content with 1 click and create a
-                      head-turning website for your travel agency.
+                      It involves exploring various destinations, attractions,
+                      and experiences within the borders of the traveler's home
+                      country.
                     </p>
                   </div>
                 </div>
@@ -185,9 +185,13 @@ export const CommonHeader = () => {
                         contentGeneral[1]}
                     </h3>
                     <p className="slider_text">
-                      A journey of a 1000 miles starts with a single step.
-                      Import the full demo content with 1 click and create a
-                      head-turning website for your travel agency.
+                      An international tour refers to a trip taken outside of
+                      one's own country, exploring various destinations and
+                      experiences in other countries. International tours offer
+                      the opportunity to immerse oneself in different cultures,
+                      cuisines, languages, and landscapes, providing a broader
+                      perspective and a chance to discover new places and
+                      experiences.
                     </p>
                   </div>
                 </div>
@@ -210,9 +214,9 @@ export const CommonHeader = () => {
                         contentGeneral[2]}
                     </h3>
                     <p className="slider_text">
-                      A journey of a 1000 miles starts with a single step.
-                      Import the full demo content with 1 click and create a
-                      head-turning website for your travel agency.
+                      An itinerary for tours is a plan that outlines the
+                      schedule of activities and destinations that will be
+                      visited during the tour.
                     </p>
                   </div>
                 </div>
@@ -235,9 +239,9 @@ export const CommonHeader = () => {
                         contentGeneral[3]}
                     </h3>
                     <p className="slider_text">
-                      A journey of a 1000 miles starts with a single step.
-                      Import the full demo content with 1 click and create a
-                      head-turning website for your travel agency.
+                      As a tour packages company, our focus is to provide our
+                      clients with enriching and unforgettable travel
+                      experiences.
                     </p>
                   </div>
                 </div>

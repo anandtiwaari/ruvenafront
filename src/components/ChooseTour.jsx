@@ -8,6 +8,7 @@ import tour_sight from "../assets/tour_sight_seeing.png";
 import tour_ticket from "../assets/tour_ticket.png";
 import tour_transportation from "../assets/tour_transportaion.png";
 import tour_meals from "../assets/tours_meals.png";
+import customizedTours from "../assets/newCustomized-Tours.svg";
 export const ChooseTour = () => {
   return (
     <div className="choose_tour_section">
@@ -39,7 +40,7 @@ export const ChooseTour = () => {
                   <span>Sightseeing</span>
                 </div>
                 <div className="icon_container d-flex flex-column align-items-center flex-wrap">
-                  <img src={tour_meals} alt="" className="flight_icon" />
+                  <img src={customizedTours} alt="" className="flight_icon" />
                   <span>Customized Tours</span>
                 </div>
               </div>

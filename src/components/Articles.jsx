@@ -19,12 +19,14 @@ export const Articles = () => {
                 <img src={imageHorizontal} className="A_simply" alt="" />
                 <div className="wrapper_second_text">
                   <div className="content_horizontal">
-                    A Simply Perfect Place To Get Lost
+                    A Simply Perfect Place to Lost - tour
                   </div>
                   <p className="simply_perfect_description">
-                    Lorem ipsum is placeholder text commonly used in the
-                    graphic, print, and publishing industries for previewing
-                    layouts and visual mockups.
+                    A Simply Perfect Place to Get Lost" is an ideal trip for
+                    travelers looking to explore a destination off the beaten
+                    path. This tour takes you to a remote and magnificent
+                    location where you can immerse yourself in natural beauty,
+                    solitude, and local culture.
                   </p>
                 </div>
               </div>
@@ -53,8 +55,12 @@ export const Articles = () => {
                       <div className="card-img-overlay text-white image_text_tour">
                         <h2 className="card-title">Dubai</h2>
                         <p className="card-text">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt.
+                          Dubai is in every person’s bucket list and it is no
+                          surprise why. Whether it is the Palm Jumeirah or the
+                          Burj Khalifa, there is so much that Dubai has to
+                          offer. Buildings, the likes of which you have never
+                          seen before, greet you in Dubai like no other city in
+                          the world.
                         </p>
                       </div>
                     </div>
@@ -71,8 +77,13 @@ export const Articles = () => {
                       <div className="card-img-overlay text-white image_text_tour">
                         <h2 className="card-title">Maldives</h2>
                         <p className="card-text">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt.
+                          The Maldives is a tropical retreat famous for itds
+                          azure waters, abundant marine life, and spotless
+                          beaches. Tourists can avail of Maldives tour
+                          packages to explore this splendid Indian Ocean
+                          archipelago, composed of more than 1,000 coral
+                          islands. Over the past few years, Maldives tourism has
+                          gained immense popularity.
                         </p>
                       </div>
                     </div>
@@ -89,8 +100,12 @@ export const Articles = () => {
                       <div className="card-img-overlay text-white image_text_tour">
                         <h2 className="card-title">Bali</h2>
                         <p className="card-text">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt.
+                          Bali has been dubbed the Island of the Gods due to its
+                          breathtaking natural beauty, rich cultural heritage,
+                          and stunning coastline. You undoubtedly think of
+                          paradise when you hear the name Bali, and it is
+                          nothing short of that. Bali Tourism has grown at an
+                          astonishing rate in the previous few decades.
                         </p>
                       </div>
                     </div>
@@ -111,8 +126,15 @@ export const Articles = () => {
                       <div className="card-img-overlay text-white image_text_tour">
                         <h2 className="card-title">Thailand</h2>
                         <p className="card-text">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt.
+                          Friendly and foodie, hedonistic and ancient, cultured
+                          and curious, a destination that greets visitors with a
+                          smile, known as The land of Smiles, we are talking
+                          about none other than Thailand. Thailand
+                          tourism offers everything a tourist could want in an
+                          international vacation destination, including pristine
+                          beaches, shopping markets, coral islands, Hindu
+                          temples, mountains, monasteries, and never-ending
+                          nightlife.
                         </p>
                       </div>
                     </div>
@@ -129,8 +151,11 @@ export const Articles = () => {
                       <div className="card-img-overlay text-white image_text_tour">
                         <h2 className="card-title">Sinagpore Malaysia</h2>
                         <p className="card-text">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt.
+                          Singapore city is located at the southern tip of the
+                          Malay peninsula, about 85 miles north of the Equator.
+                          It is loaded with vibrant history, diversity,
+                          family-friendly atmosphere and attractions, making it
+                          one of the most popular tourist destinations.
                         </p>
                       </div>
                     </div>
@@ -147,8 +172,11 @@ export const Articles = () => {
                       <div className="card-img-overlay text-white image_text_tour">
                         <h2 className="card-title">Vietnam</h2>
                         <p className="card-text">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt.
+                          Singapore city is located at the southern tip of the
+                          Malay peninsula, about 85 miles north of the Equator.
+                          It is loaded with vibrant history, diversity,
+                          family-friendly atmosphere and attractions, making it
+                          one of the most popular tourist destinations.
                         </p>
                       </div>
                     </div>

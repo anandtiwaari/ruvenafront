@@ -20,6 +20,7 @@ export const Blogs = () => {
     return { ...data, updatedAt: new Date(data.updatedAt) };
   });
   console.log(newDataAgain, "its a newDataAgain");
+
   // console.log(blogsDataagain, "blogsDattaaa");
   const fetchBlogData = () => {
     axios
@@ -60,6 +61,28 @@ export const Blogs = () => {
       "show data"
     );
   });
+
+  let UPdatedBlogData = [];
+  blogsData.forEach((d) => {
+    return UPdatedBlogData.push({ ...d.attributes, id: d.id });
+  });
+  console.log(UPdatedBlogData, "before___");
+  UPdatedBlogData = UPdatedBlogData.map((d) => {
+    return { ...d, updatedAt: new Date(d.updatedAt) };
+  });
+  console.log(UPdatedBlogData, "uiyuiyuiy---before");
+  UPdatedBlogData?.sort((a, b) => b.updatedAt - a.updatedAt);
+  console.log(UPdatedBlogData, "UPdatedBlogData");
+  // console.log(homeBlogData, "homeBlogData");
+  // let UPdatedBlogDatasorted = [];
+  // homeBlogData.forEach((d, k) => {
+  //   return UPdatedBlogDatasorted.push({
+  //     id: d.id,
+  //     attributes: UPdatedBlogData[k],
+  //   });
+  // });
+  // console.log(UPdatedBlogDatasorted, "UPdatedBlogDatasorted");
+
   return (
     <div className="blog_main_container">
       <div className="container">
@@ -125,7 +148,7 @@ export const Blogs = () => {
         </div>
         {filteredObject?.length == 0 ? (
           <div className="col-lg-12 row" style={{ marginBottom: "100px" }}>
-            {blogsData?.map((data, key) => {
+            {UPdatedBlogData?.map((data, key) => {
               if (key < 6) {
                 return (
                   <div
@@ -138,11 +161,11 @@ export const Blogs = () => {
                       style={{ textDecoration: "none" }}
                     >
                       <img
-                        src={`${data?.attributes?.featuredimage?.data[0]?.attributes?.url}`}
+                        src={`${data?.featuredimage?.data[0]?.attributes?.url}`}
                         alt=""
                       />
                       <h3 className="mt-4 text-dark blog_title_home">
-                        {data?.attributes?.blogtitle}
+                        {data?.blogtitle}
                       </h3>
                       <div className="date_home_blog d-flex align-items-center mt-3">
                         <img src={dateIcon} alt="" />
@@ -153,7 +176,7 @@ export const Blogs = () => {
                             textDecoration: "none",
                           }}
                         >
-                          {dataFormat(data?.attributes?.updatedAt)}
+                          {dataFormat(data?.updatedAt)}
                         </span>
                       </div>
                     </Link>
