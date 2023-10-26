@@ -351,7 +351,7 @@ export const HomeContent = () => {
             </div>
           </div>
           <Link to="/destination" style={{ textDecoration: "none" }}>
-            <button className="seeMore main-gradient-button button_contact  monteseraat_btn py-2 px-1">
+            <button className="seeMore main-gradient-button  monteseraat_btn ">
               SEE MORE
             </button>
           </Link>
