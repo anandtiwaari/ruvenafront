@@ -25,7 +25,7 @@ export const Articles = () => {
                 <img src={imageHorizontal} className="A_simply" alt="" />
                 <div className="wrapper_second_text">
                   <div className="content_horizontal">
-                    A Simply Perfect Place to Lost - tour
+                    A Simply Perfect Place to Lost - Tour
                   </div>
                   <p className="simply_perfect_description">
                     A Simply Perfect Place to Get Lost" is an ideal trip for
