@@ -163,9 +163,12 @@ export const Articles = () => {
                       <div className="card-img-overlay text-white image_text_tour">
                         <h2 className="card-title">Vietnam</h2>
                         <p className="card-text">
-                          Singapore city is located at the southern tip of the
-                          Malay peninsula, about 85 miles north of the Equator.
-                          It is loaded with vibrant history.
+                          There is a general belief that Vietnam is still a
+                          damaged, poor, war-torn, and unsafe nation. But anyone
+                          who thinks that is in for a shock. Vietnam tourism is
+                          simply stunning and historical, from the stunning
+                          scenery to the friendly locals to the delicious
+                          coffee.
                         </p>
                       </div>
                     </div>
