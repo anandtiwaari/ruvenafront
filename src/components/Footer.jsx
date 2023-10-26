@@ -23,7 +23,9 @@ export const Footer = () => {
             </div>
             <div className="footerdecription mt-3">
               <p className="text-white">
-                Lorem ipsum is placeholder text commonly used in the graphic.
+                At Ruvena Holidays, we specialize in creating tailor-made
+                holiday experiences that cater to your specific needs and
+                preferences.
               </p>
             </div>
             <div className="wrapper_icons_detials mt-4 mb-4">
@@ -75,7 +77,10 @@ export const Footer = () => {
               </div>
             </div>
             <div className="latest_post" style={{ marginTop: "30px" }}>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>
+                As a tour packages company, our focus is to provide our clients
+                with enriching and unforgettable travel experiences.
+              </p>
               <div className="date" style={{ color: "grey" }}>
                 03 August,2023
               </div>

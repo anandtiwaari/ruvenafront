@@ -43,7 +43,12 @@ export const CommonHeader = () => {
     "Adventure tours can involve physical, mental, and emotional challenges designed to push one's limits and offer a unique and exhilarating experience.",
   ];
 
-  let contentGeneral = ["DESTINATION LIST", "TOURS", "BLOGS", "About us"];
+  let contentGeneral = [
+    "DOMESTIC",
+    "INTERNATIONAL",
+    "TOUR ITINERARY",
+    "About us",
+  ];
 
   return (
     <div>
