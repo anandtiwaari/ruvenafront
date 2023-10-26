@@ -151,10 +151,10 @@ export const HomeContent = () => {
           <div className="exotic_text my-4">
             <h1 className="text-center">Go Exotic Places</h1>
             <p className="text-center my-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vero
-              odio porro quod quis beatae delectus provident eum, possimus
-              voluptatibus maxime incidunt voluptas rerum sunt asperiores eaque
-              nihil iste officia?
+              Invites you on an unforgettable voyage to the world's most
+              secluded, yet absolutely breathtaking locations. Stepping beyond
+              conventional travel norms, we take you on a luxurious tour,
+              tailored to satiate the desires of the most discerning travelers.
             </p>
           </div>
           <DialogButton
@@ -482,9 +482,9 @@ export const HomeContent = () => {
           <div className="col-lg-12 text-center">
             <h2 className="blog_posts_title">Tour Itinerary</h2>
             <p style={{ marginTop: "1.5rem" }} className="mb-5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+              Experience unforgettable journeys with Tour Itinerary! Plan your
+              perfect getaway with handcrafted itineraries, insider tips and
+              local secrets. Turn your tour dream into a reality.
             </p>
           </div>
           {UPdatedBlogDatasorted.length > 0 ? (

@@ -18,9 +18,9 @@ export const ChooseTour = () => {
             <div className="col-12 text-center">
               <h1 className="display-2 choose_tour_title">Our Services</h1>
               <p className="lead">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                Experience top-notch Services from Ruvena Holidays. Explore
+                tailor-made Tour Packages across the world personalized just for
+                you. Start your dream journey today!
               </p>
               <div className="AllBookings d-flex justify-content-evenly flex-wrap">
                 <div className="icon_container d-flex flex-column align-items-center flex-wrap">

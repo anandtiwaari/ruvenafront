@@ -7,6 +7,12 @@ import secondCardThree from "../assets/card_second_3.svg";
 import tour1 from "../assets/tours_1.png";
 import tour2 from "../assets/tours_2.png";
 import tour3 from "../assets/tours_3.png";
+import Bali from "../assets/newImage/Bali.png";
+import Dubai from "../assets/newImage/Dubai.png";
+import Maldives from "../assets/newImage/Maldives.png";
+import singapore_malaysia from "../assets/newImage/Singapore-Malesiya.png";
+import thailand from "../assets/newImage/Thailand.png";
+import Vietnam from "../assets/newImage/Vietnam.png";
 import { Link } from "react-router-dom";
 export const Articles = () => {
   return (
@@ -49,7 +55,7 @@ export const Articles = () => {
                     <div className="card m-2">
                       <img
                         className="card-img card_image_second"
-                        src={tour1}
+                        src={Dubai}
                         alt="a snow-capped mountain range"
                       />
                       <div className="card-img-overlay text-white image_text_tour">
@@ -71,7 +77,7 @@ export const Articles = () => {
                     <div className="card m-2">
                       <img
                         className="card-img card_image_second"
-                        src={tour2}
+                        src={Maldives}
                         alt="a snow-capped mountain range"
                       />
                       <div className="card-img-overlay text-white image_text_tour">
@@ -79,11 +85,7 @@ export const Articles = () => {
                         <p className="card-text">
                           The Maldives is a tropical retreat famous for itds
                           azure waters, abundant marine life, and spotless
-                          beaches. Tourists can avail of Maldives tour
-                          packages to explore this splendid Indian Ocean
-                          archipelago, composed of more than 1,000 coral
-                          islands. Over the past few years, Maldives tourism has
-                          gained immense popularity.
+                          beaches.
                         </p>
                       </div>
                     </div>
@@ -94,7 +96,7 @@ export const Articles = () => {
                     <div className="card m-2">
                       <img
                         className="card-img card_image_second"
-                        src={tour3}
+                        src={Bali}
                         alt="a snow-capped mountain range"
                       />
                       <div className="card-img-overlay text-white image_text_tour">
@@ -102,10 +104,7 @@ export const Articles = () => {
                         <p className="card-text">
                           Bali has been dubbed the Island of the Gods due to its
                           breathtaking natural beauty, rich cultural heritage,
-                          and stunning coastline. You undoubtedly think of
-                          paradise when you hear the name Bali, and it is
-                          nothing short of that. Bali Tourism has grown at an
-                          astonishing rate in the previous few decades.
+                          and stunning coastline.
                         </p>
                       </div>
                     </div>
@@ -120,7 +119,7 @@ export const Articles = () => {
                     <div className="card m-2">
                       <img
                         className="card-img card_image_second"
-                        src={tour1}
+                        src={thailand}
                         alt="a snow-capped mountain range"
                       />
                       <div className="card-img-overlay text-white image_text_tour">
@@ -128,13 +127,7 @@ export const Articles = () => {
                         <p className="card-text">
                           Friendly and foodie, hedonistic and ancient, cultured
                           and curious, a destination that greets visitors with a
-                          smile, known as The land of Smiles, we are talking
-                          about none other than Thailand. Thailand
-                          tourism offers everything a tourist could want in an
-                          international vacation destination, including pristine
-                          beaches, shopping markets, coral islands, Hindu
-                          temples, mountains, monasteries, and never-ending
-                          nightlife.
+                          smile, known as The land of Smiles.
                         </p>
                       </div>
                     </div>
@@ -145,7 +138,7 @@ export const Articles = () => {
                     <div className="card m-2">
                       <img
                         className="card-img card_image_second"
-                        src={tour2}
+                        src={singapore_malaysia}
                         alt="a snow-capped mountain range"
                       />
                       <div className="card-img-overlay text-white image_text_tour">
@@ -153,9 +146,7 @@ export const Articles = () => {
                         <p className="card-text">
                           Singapore city is located at the southern tip of the
                           Malay peninsula, about 85 miles north of the Equator.
-                          It is loaded with vibrant history, diversity,
-                          family-friendly atmosphere and attractions, making it
-                          one of the most popular tourist destinations.
+                          It is loaded with vibrant history.
                         </p>
                       </div>
                     </div>
@@ -166,7 +157,7 @@ export const Articles = () => {
                     <div className="card m-2">
                       <img
                         className="card-img card_image_second"
-                        src={tour3}
+                        src={Vietnam}
                         alt="a snow-capped mountain range"
                       />
                       <div className="card-img-overlay text-white image_text_tour">
@@ -174,9 +165,7 @@ export const Articles = () => {
                         <p className="card-text">
                           Singapore city is located at the southern tip of the
                           Malay peninsula, about 85 miles north of the Equator.
-                          It is loaded with vibrant history, diversity,
-                          family-friendly atmosphere and attractions, making it
-                          one of the most popular tourist destinations.
+                          It is loaded with vibrant history.
                         </p>
                       </div>
                     </div>
