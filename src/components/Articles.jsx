@@ -165,10 +165,7 @@ export const Articles = () => {
                         <p className="card-text">
                           There is a general belief that Vietnam is still a
                           damaged, poor, war-torn, and unsafe nation. But anyone
-                          who thinks that is in for a shock. Vietnam tourism is
-                          simply stunning and historical, from the stunning
-                          scenery to the friendly locals to the delicious
-                          coffee.
+                          who thinks that is in for a shock.
                         </p>
                       </div>
                     </div>
