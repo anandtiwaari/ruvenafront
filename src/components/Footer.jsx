@@ -71,7 +71,10 @@ export const Footer = () => {
           <div className="col-lg-4 text-white">
             <h3 className="text-white mt-2 footer_latest">Latest Post</h3>
             <div className="latest_post mt-3">
-              <p>The purpose of lorem ipsum is to create a natural looking</p>
+              <p>
+                Our dedicated team of travel specialists is here to listen and
+                understand your unique travel aspirations.
+              </p>
               <div className="date" style={{ color: "grey" }}>
                 03 August,2023
               </div>
