@@ -18,6 +18,9 @@ import uttarakhand from "../assets/uttarakhand 1.png";
 import { DialogButton } from "./DialogButton";
 import { Carousel } from "primereact/carousel";
 import { ProgressSpinner } from "primereact/progressspinner";
+import AvtarOne from "../assets/Avtar-1.png";
+import AvtarTwo from "../assets/Avtar-1.png";
+import AvtarThree from "../assets/Avtar-1.png";
 export const HomeContent = () => {
   const [homeBlogData, sethomeBlogData] = useState([]);
   const [visible, setVisible] = useState(false);
@@ -28,13 +31,16 @@ export const HomeContent = () => {
   });
   const [products, setProducts] = useState([
     {
-      desc: " Lorem ipsum, or lipsum as it is sometimes known, is dummy text used inlaying out print, graphic or web designs. The passage is attributed toan unknown typesetter in the 15th century who is thought to havescrambled parts of Cicero's De Finibus Bonorum.",
+      img: AvtarOne,
+      desc: " I would highly recommend RuvenaHolidays after my 10 days Bali tour for our Honeymoon. Their Amazing customer service, intense knowledge and explanations on each site has been commendable. Each day they explained what is the itinerary with history, what to focus on so we get maximum out of our time. We are really thankful to RuvenaHolidays specially for making our holidays enjoyable and memorable and looking forward to more trips.",
     },
     {
-      desc: " Lorem ipsum, or lipsum as it is sometimes known, is dummy text used inlaying out print, graphic or web designs. The passage is attributed toan unknown typesetter in the 15th century who is thought to havescrambled parts of Cicero's De Finibus Bonorum.",
+      img: AvtarTwo,
+      desc: "It's very perfect planned trip for couple.. we enjoy lots and we are very happy to travel with RuvenaHolidays. Thank you for arrange proper and memorable experience.",
     },
     {
-      desc: " Lorem ipsum, or lipsum as it is sometimes known, is dummy text used inlaying out print, graphic or web designs. The passage is attributed toan unknown typesetter in the 15th century who is thought to havescrambled parts of Cicero's De Finibus Bonorum.",
+      img: AvtarThree,
+      desc: "We had a quality stay in maldives .we will sure recommand RuvenaHolidays in our family and friends for sure. Trip to maldives arrange by RuvenaHolidays ,it was nice planning by your team and we had a great time over there we were there for 4 days and it felt like home .Specially Thanks to Mr.Ajay Sharma his followup was good to help us in maldives.",
     },
   ]);
 
@@ -120,18 +126,13 @@ export const HomeContent = () => {
       numScroll: 1,
     },
   ];
-  const ReviewsCompo = () => {
+  const ReviewsCompo = (products) => {
     return (
       <>
-        <p className="mt-5 mb-5">
-          Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-          laying out print, graphic or web designs. The passage is attributed to
-          an unknown typesetter in the 15th century who is thought to have
-          scrambled parts of Cicero's De Finibus Bonorum.
-        </p>
+        <p className="mt-5 mb-5">{products.desc}</p>
 
         <div className="review_sect d-flex justify-content-center align-items-center flex-column mt-3">
-          <img src={jamesDoe} alt="" />
+          <img src={products.img} alt="" />
           <div>
             <span>
               <img src={ratingStar} alt="" />
